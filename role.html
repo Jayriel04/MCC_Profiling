@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Role</title>
+  <link rel="stylesheet" href="../MCC_Profiling/script/css/styles.css">
+  <script>
+    function goToLogin() {
+      const role = document.querySelector('input[name="role"]:checked').value;
+      if (role === 'admin') location.href = 'login-admin.html';
+      else if (role === 'staff') location.href = 'login-staff.html';
+      else if (role === 'student') location.href = 'login-student.html';
+    }
+  </script>
+</head>
+<body class="welcome">
+  <div class="modal">
+    <h2>Login</h2>
+    <p>Login as</p>
+    <label><input type="radio" name="role" value="admin" checked> Admin</label><br>
+    <label><input type="radio" name="role" value="staff"> Staff</label><br>
+    <label><input type="radio" name="role" value="student"> Student</label><br><br>
+    <button onclick="goToLogin()" class="btn">Continue</button>
+  </div>
+</body>
+</html>
