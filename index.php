@@ -9,24 +9,24 @@ include('includes/dbconnection.php');
 <title>Student  Management System || Home Page</title>
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--bootstrap-->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="library/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <!--coustom css-->
-<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="library/css/style.css" rel="stylesheet" type="text/css"/>
 <!--script-->
-<script src="js/jquery-1.11.0.min.js"></script>
+<script src="library/js/jquery-1.11.0.min.js"></script>
 <!-- js -->
-<script src="js/bootstrap.js"></script>
+<script src="library/js/bootstrap.js"></script>
 <!-- /js -->
 <!--fonts-->
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400italic,400,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!--/fonts-->
 <!--hover-girds-->
-<link rel="stylesheet" type="text/css" href="css/default.css" />
-<link rel="stylesheet" type="text/css" href="css/component.css" />
-<script src="js/modernizr.custom.js"></script>
+<link rel="stylesheet" type="text/css" href="library/css/default.css" />
+<link rel="stylesheet" type="text/css" href="library/css/component.css" />
+<script src="library/js/modernizr.custom.js"></script>
 <!--/hover-grids-->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="library/js/move-top.js"></script>
+<script type="text/javascript" src="library/js/easing.js"></script>
 <!--script-->
 <script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -42,7 +42,7 @@ include('includes/dbconnection.php');
 <?php include_once('includes/header.php');?>
 <div class="banner">
   <div class="container">
-  <script src="js/responsiveslides.min.js"></script>
+  <script src="library/js/responsiveslides.min.js"></script>
  <script>
     $(function () {
       $("#slider").responsiveSlides({
